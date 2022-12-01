@@ -1,0 +1,21 @@
+:root {
+    /* check out a color palette library for ideas  https://coolors.co/palettes/trending */
+        --green-blue: #7BE1C9;
+        --yellow-green: #C3E791;
+        --celeste: #B9EEEA;
+        --pink: #fde2e4;
+        --lavender: #cddafd;
+    }
+    
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+        }

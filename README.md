@@ -9,7 +9,8 @@ The mission for the game is to be the first to form a horizontal, vertical, or d
 
 
 # wireframe
-https://ninambarack895937.invisionapp.com/freehand/-rtaiPzbzm?dsid_h=1bd69719b71d17bd4735c88f8e10ec0111723c30fb2b1c8ec1efda95c39bae55&uid_h=8506dca48f7bc82f3610d41dffd147af6804ef8cb46c455ba7e9251ed55b534b
+![wireframe](./wireframe.png)
+
 
 
 # Tech stack
