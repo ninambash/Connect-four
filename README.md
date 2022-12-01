@@ -1,37 +1,38 @@
-# fruit Crush
-fruit saga is a game to align same type of fruits together to go a level up.
+# Connect 4
+Connect Four 
 
-
-# Elevator Speech
-The mission for fruit crush is to choose from a variety of fruits, align them and move one level up. There is 
-no winning in this game, the level keeps going higher and more difficult.
+# Connect Four Pitch
+First Four is a two-player board game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column.
+The mission for the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. 
+  
 
 
 
 # wireframe
-https://miro.com/app/board/uXjVP-fOoV8=/#tpicker-content 
+https://ninambarack895937.invisionapp.com/freehand/-rtaiPzbzm?dsid_h=1bd69719b71d17bd4735c88f8e10ec0111723c30fb2b1c8ec1efda95c39bae55&uid_h=8506dca48f7bc82f3610d41dffd147af6804ef8cb46c455ba7e9251ed55b534b
+
+
 # Tech stack
 HTML
 CSS
 JavaScript
-bootstrap
-
+Vanilla DOM
 
 # MVP Goals
-Button to start the game. <br>
-Have 5 lives<br>
-Have 15 moves<br>
-Give hammer to tap any fruit to eliminate it to get closer <br>
-Give more points for getting multiple same fruit in a row or column<br>
-Give drill to drill any fruit to eliminate it to get closer <br>
-Track levels and make the level harder<br>
+user clicks button to start the game<br>
+Winn is reflected as soon as the four colors are matched<br>
+draw conditions to restart the game
+ <br>
+
 
 
 
 # stretch Goals
-When you get to level 5 you are invited to join a community who can save you incase you reun out of lives
-Get your super charged fruit that will explode and clear your board 
-Gain a life when you stay winning for 10 rounds straight
+Accumulate gems upon winning 5 times a row<br>
+Using an AI to compete with user<br>
+Letting user invite to play with friends<br> 
+
 
 # potential Roadblocks
-Entire logic might be a challange
+Algorithm for an AI to learn the game and is never defeated
+
