@@ -18,13 +18,13 @@ bootstrap
 
 
 # MVP Goals
-Button to start the game
-Have 5 lives
-Have 15 moves
-Give hammer to tap any fruit to eliminate it to get closer 
-Give more points for getting multiple same fruit in a row or column
-Give drill to drill any fruit to eliminate it to get closer 
-Track levels and make the level harder
+Button to start the game. <br>
+Have 5 lives<br>
+Have 15 moves<br>
+Give hammer to tap any fruit to eliminate it to get closer <br>
+Give more points for getting multiple same fruit in a row or column<br>
+Give drill to drill any fruit to eliminate it to get closer <br>
+Track levels and make the level harder<br>
 
 
 
