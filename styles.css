@@ -12,10 +12,37 @@
         box-sizing: border-box;
     }
     
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 1px;
-        grid-row-gap: 1px;
+    .grid {
+        border: 5px solid black;
+        height: 500px;
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(103, 102, 104);
+        margin-left: 400px;
+        margin-right: 300px;
+        margin-top: 100px;
+       
+        }
+        .grid div{
+            height: 30px;
+            width: 30px;
+           
+           
+        }
+        .player-one{
+            background-color: red;
+            border-radius: 10px;
+            display: flex;
+            
+
+        }
+        .player-two{
+            background-color: blue;
+            border-radius: 10px;
+            display: flex;
+        }
+        h3{
+            text-align: center;
+            margin-top: 20px;
         }
