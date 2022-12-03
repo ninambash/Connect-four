@@ -159,6 +159,15 @@ class ConnectFour {
   displayBoard() {
     return this.board
   }
+  ///get free position method
+  getFreeYPosition(Xposition) {
+    for (let i = 0; i < this.rowLength; i++) {
+      if (this.board[i][Xposition] != 0) {
+        return i - 1;
+      }
+    }
+    return this.rowLength - 1;
+  }
 }
 //iniciate the class
 let myBoard = new ConnectFour();
