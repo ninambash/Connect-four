@@ -173,6 +173,10 @@ class ConnectFour {
     let YPosition = this.getFreeYPosition(Xposition);
     this.board[YPosition][Xposition] = playerNumber;
   }
+  //update status of the board & call DOM to update the html
+  //checkWin function
+  //check draw function
+  //reset board function
 }
 //iniciate the class
 let myBoard = new ConnectFour();
