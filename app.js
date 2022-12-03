@@ -168,6 +168,11 @@ class ConnectFour {
     }
     return this.rowLength - 1;
   }
+  ///create a method for player x and Y
+  playerMove(playerNumber, Xposition) {
+    let YPosition = this.getFreeYPosition(Xposition);
+    this.board[YPosition][Xposition] = playerNumber;
+  }
 }
 //iniciate the class
 let myBoard = new ConnectFour();
