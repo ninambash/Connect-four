@@ -154,6 +154,13 @@ class ConnectFour {
       this.board.push(row);
     }
   }
+  //helper function to print out a representation of the board
+  //method
+  displayBoard() {
+    return this.board
+  }
 }
 //iniciate the class
 let myBoard = new ConnectFour();
+///called displayBoard function
+console.log(myBoard.displayBoard())
