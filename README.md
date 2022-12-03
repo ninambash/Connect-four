@@ -21,8 +21,10 @@ Vanilla DOM
 
 # MVP Goals
 user clicks button to start the game<br>
-Winn is reflected as soon as the four colors are matched<br>
-draw conditions to restart the game
+create a checkwin function <br>
+create draw condition<br>
+Win is reflected as soon as the four colors are matched<br>
+
  <br>
 
 
