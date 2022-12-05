@@ -58,7 +58,7 @@ body{
   justify-content: space-evenly;
 
   flex-direction: column;
-  margin-left: 600px;
+  margin-right: 600px;
   margin-bottom: 400px;
   border:6px solid rgb(20, 20, 136);
   border-radius: 10%;
