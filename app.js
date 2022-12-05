@@ -30,6 +30,14 @@ function newGame(button) {
      game.appendChild(column);
      columns.push(column);
    }
+   ////create a class for slots
+   class Slot {
+    constructor(element, column, row) {
+      this.column = column;
+      this.row = row;
+      this.element = element;
+      this.state = "";
+    }
 
 }
-newGame()
+}
