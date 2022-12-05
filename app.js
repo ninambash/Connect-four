@@ -19,16 +19,17 @@ function newGame(button) {
   const game = document.getElementById("gameContainer")
    //columns
    const columns = [];
-   //array that stores columns/rows
+   //create an empty array that stores columns and rows
    const slotsArray = [];
    //determine the next color
    let nextColor = "red";
-   //create columns
+   //create loop for creating colums
    for (let i = 0; i < 7; i++) {
      const column = document.createElement("div");
      column.className = "column";
      game.appendChild(column);
      columns.push(column);
    }
+
 }
 newGame()
