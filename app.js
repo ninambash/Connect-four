@@ -38,6 +38,23 @@ function newGame(button) {
       this.element = element;
       this.state = "";
     }
+////////////create a function for element clickable
+clicked() {
+  const el = this.element;
+  if (!el.classList.contains("clickable")) return;
+  el.style.backgroundColor = nextColor;
+  this.state = nextColor;
+  //make this element not clickable
+  el.classList.remove("clickable");
+  //make next element clickable
+  if (slotsArray[this.column][this.row - 1]) {
+    slotsArray[this.column][this.row - 1].element.classList.add(
+      "clickable",
+      nextColor
+    );
+  }
 
 }
+
+
 }
