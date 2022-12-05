@@ -9,7 +9,26 @@
     <title>Connect Four</title>
 </head>
 <body>
-   
+  <h1 style="text-align: center;">Connect Four</h1>
+  <h2 style="text-align: center; margin: 40px;">Press Play Game to start</h2>
+  <div id="gameContainer">
+      <div id='playButton' onclick="newGame(this)">
+          <div>Play Game</div>
+      </div>
+  </div>
+  <div id='scoreBoard'>
+      <h2>Score Board</h2>
+      <div class='scores'>
+          <div class='score'>
+              <h3  style="margin-right: 50px;">Red    </h3>
+              <p id='redScore'>0</p>
+          </div>
+          <div class='score'>
+              <h3>Yellow </h3>
+              <p id='yellowScore'>0</p>
+          </div>
+      </div>
+  </div>
 
   <script src="/app.js"></script>
 </body>
