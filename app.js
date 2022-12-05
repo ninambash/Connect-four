@@ -17,5 +17,18 @@ console.log("Hello Connect Four")
 function newGame(button) {
   button.style.display = "none";
   const game = document.getElementById("gameContainer")
+   //columns
+   const columns = [];
+   //array that stores columns/rows
+   const slotsArray = [];
+   //determine the next color
+   let nextColor = "red";
+   //create columns
+   for (let i = 0; i < 7; i++) {
+     const column = document.createElement("div");
+     column.className = "column";
+     game.appendChild(column);
+     columns.push(column);
+   }
 }
 newGame()
